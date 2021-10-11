@@ -204,6 +204,51 @@ label {
 
 /* ===== LAYOUT STYLES ====== */
 
+form {
+  border-radius: 1em;
+  padding: 2em;
+}
+
+#input-email {
+  padding: 1em;
+  border-radius: 0.4em;
+  background-color: #F8F8F8;
+  margin-top: 1em;
+}
+
+input {
+  border-width: 0;
+  border-radius: 0.2em;
+  width: 100%;
+}
+
+#input-age-verification {
+  padding: 1em;
+  margin-top: 1em;
+  background-color: #F8F8F8;
+  border-radius: 0.4em;
+}
+
+#age-verification {
+  width: 4%;
+  float: left;
+}
+
+#input-submit {
+  padding: 1em;
+}
+
+#submit {
+  padding: 0.5em;
+  width: 100%;
+}
+
+h1, p {
+  padding: 1em;
+  border-radius: 0.4em;
+  background-color: #F8F8F8;
+  margin-top: 1em;
+}
 
 /* ===== STATE STYLES ======= */
 
