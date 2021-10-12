@@ -265,6 +265,11 @@ p {
   padding: 1em 0.5em 1em 0.5em;
 }
 
+ol {
+  background-color:	#C8C8C8;
+  border-radius: 0.5em;
+}
+
 
 @media only screen and (min-width : 480px) {
   form {
