@@ -21,7 +21,7 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: sans-serif; /* 1 */
+  font-family: 'Anton'; /* 1 */
   font-size: 100%; /* 1 */
   line-height: 1.15; /* 1 */
   margin: 0; /* 2 */
@@ -197,6 +197,7 @@ html {
   padding: 1.182em; /* 26px / ~ 120% */
   text-rendering: optimizeLegibility;
   background-color: #D0D0D0;
+  font-family: 'Anton', Impact, sans-serif;
 }
 
 label {
@@ -213,13 +214,13 @@ form {
 
 #input-email {
   border-radius: 0.4em;
-  margin: 1em 0 1em 0;
+  margin: 3em 0 1em 0;
   padding: 1em;
 }
 
 #input-age-verification {
   padding: 1em;
-  margin: 1em 0 1em 0;
+  margin: 1em 1em 1em 1em;
   background-color: #D3D3D3;
   border-radius: 0.4em;
 }
@@ -234,8 +235,9 @@ input {
   border-width: 0;
   border-radius: 0.2em;
   width: 100%;
-  padding: 0.5em 0 0.5em 0;
+  padding: 0.5em 0 0.5em 0.5em;
   background-color: #E0E0E0;
+  
 }
 
 #input-submit {
@@ -248,16 +250,25 @@ input {
 }
 
 h1, p {
-  padding: 1em;
-  border-radius: 0.4em;
-  background-color: #D8D8D8;
   text-align: center;
-  margin: 1em 0 1em 0;
 }
+
+h1 {
+  background-color:	#C8C8C8;
+  border-radius: 5em;
+  padding: 1.5em;
+  margin: 0.5em 0 0.5em 0;
+}
+
+p {
+  border-radius: 2em;
+  padding: 1em 0.5em 1em 0.5em;
+}
+
 
 @media only screen and (min-width : 480px) {
   form {
-    width:20em;
+    width:22em;
   }
 
   #submit {
@@ -267,13 +278,17 @@ h1, p {
   }
 
   input {
-    width: 85%;
+    width: 83%;
   }
 
   label {
     display: inline-block;
+    padding-right: 0.5em;
   }
 }
 
+
 /* ===== STATE STYLES ======= */
+
+
 
