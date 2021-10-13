@@ -196,7 +196,7 @@ html {
   line-height: 1.182em; /* 26px / ~ 120% */
   padding: 1.182em; /* 26px / ~ 120% */
   text-rendering: optimizeLegibility;
-  background-color: #D0D0D0;
+  background-color: #707070;
   font-family: 'Anton', Impact, sans-serif;
 }
 
@@ -221,7 +221,7 @@ form {
 #input-age-verification {
   padding: 1em;
   margin: 1em 1em 1em 1em;
-  background-color: #D3D3D3;
+  background-color: #888888;
   border-radius: 0.4em;
 }
 
@@ -236,8 +236,7 @@ input {
   border-radius: 0.2em;
   width: 100%;
   padding: 0.5em 0 0.5em 0.5em;
-  background-color: #E0E0E0;
-  
+  background-color: #A0A0A0;
 }
 
 #input-submit {
@@ -254,7 +253,7 @@ h1, p {
 }
 
 h1 {
-  background-color:	#C8C8C8;
+  background-color:	#585858;
   border-radius: 5em;
   padding: 1.5em;
   margin: 0.5em 0 0.5em 0;
@@ -266,10 +265,11 @@ p {
 }
 
 ol {
-  background-color:	#C8C8C8;
+  background-color:	#686868;
   border-radius: 0.5em;
 }
 
+/* ===== STATE STYLES ======= */
 
 @media only screen and (min-width : 480px) {
   form {
@@ -291,9 +291,5 @@ ol {
     padding-right: 0.5em;
   }
 }
-
-
-/* ===== STATE STYLES ======= */
-
 
 
